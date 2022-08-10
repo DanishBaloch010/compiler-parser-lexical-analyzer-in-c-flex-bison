@@ -10,4 +10,4 @@ you can check CFG of pedestal language in rec_parse.cpp or in flex and bison fil
 
 thanks. 
 
-# The repo contains a .pdf presentation which includes detaid explanation of this project. 
+# The repo contains a .pdf presentation which includes detailed explanation of this project. 
