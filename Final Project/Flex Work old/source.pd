@@ -1,0 +1,15 @@
+//program to add two numbers 10 times
+/* this is a multi 
+line comment */
+put 90 into integerContainer a ;
+put 100 into integerContainer b ;
+
+put 0 into integerContainer i; 
+repeatUntil(i isLessThan 10)
+{
+	add a and b into c;
+
+	updateInc i;
+}
+
+show ( "Ans-->" , c);

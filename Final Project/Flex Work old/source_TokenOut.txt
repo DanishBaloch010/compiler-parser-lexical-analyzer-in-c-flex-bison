@@ -1,0 +1,46 @@
+Keyword : put
+Integer Number : 90
+Keyword : into
+Keyword : integerContainer
+Identifier : a
+Seperator : ;
+Keyword : put
+Integer Number : 100
+Keyword : into
+Keyword : integerContainer
+Identifier : b
+Seperator : ;
+Keyword : put
+Integer Number : 0
+Keyword : into
+Keyword : integerContainer
+Identifier : i
+Seperator : ;
+Identifier : repeatUntil
+Seperator : (
+Identifier : i
+Operator : isLessThan
+Integer Number : 10
+Seperator : )
+Seperator : {
+Operator : add
+Identifier : a
+Keyword : and
+Identifier : b
+Keyword : into
+Identifier : c
+Seperator : ;
+Operator : updateInc
+Identifier : i
+Seperator : ;
+Seperator : }
+Keyword : show
+Seperator : (
+String LiteraL : "Ans-->"
+Seperator : ,
+Identifier : c
+Seperator : )
+Seperator : ;
+
+
+ Number of TOKENS --> 43

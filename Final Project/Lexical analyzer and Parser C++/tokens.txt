@@ -1,0 +1,70 @@
+comment --> //
+comment --> /*
+comment --> //
+keyword --> pedestal
+keyword --> start
+string Constant --> "add"
+separator --> ;
+keyword --> put
+digit --> 90
+keyword --> into
+keyword --> integerContainer
+identifier --> a
+separator --> ;
+operator --> add
+identifier --> a
+identifier --> and
+identifier --> b
+keyword --> into
+identifier --> c
+separator --> ;
+keyword --> show
+separator --> (
+string Constant --> "result"
+separator --> ,
+identifier --> k
+separator --> )
+separator --> ;
+keyword --> show
+separator --> (
+string Constant --> "1ststatement-->"
+separator --> ,
+identifier --> a
+separator --> )
+separator --> ;
+keyword --> put
+string Constant --> "result2"
+keyword --> into
+keyword --> stringContainer
+identifier --> wow
+separator --> ;
+operator --> add
+identifier --> a
+identifier --> and
+identifier --> b
+keyword --> into
+identifier --> c
+separator --> ;
+keyword --> put
+string Constant --> "result3"
+keyword --> into
+keyword --> stringContainer
+identifier --> wow
+separator --> ;
+keyword --> put
+string Constant --> "result"
+keyword --> into
+keyword --> stringContainer
+identifier --> result
+separator --> ;
+keyword --> put
+digit --> 10
+keyword --> into
+keyword --> integerContainer
+identifier --> a
+separator --> ;
+comment --> //
+keyword --> pedestal
+keyword --> end
+string Constant --> "add"
+separator --> ;

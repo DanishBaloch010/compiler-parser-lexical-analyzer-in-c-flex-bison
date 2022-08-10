@@ -1,0 +1,18 @@
+pedestal start "program"; 
+
+show ( "printStmt" , a  );
+put 10 into integerContainer i;
+put "danish" into stringContainer str;
+put 100  into floatContainer f;
+
+updateInc i ;
+put 78 into integerContainer a;
+
+updateInc j ;
+add a and b into c ;
+updateInc k ;
+
+
+show ( "printStmt2" , a  );
+
+pedestal end "program" ;

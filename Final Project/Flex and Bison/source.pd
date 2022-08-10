@@ -1,0 +1,56 @@
+//this is single comment
+/* this is a multi 
+line comment */
+
+//header
+pedestal start "add" ;
+
+//decleration
+put 90 into integerContainer a ;
+
+//operation
+add a and b into c ;
+
+//print
+show ("result" , k) ;
+
+show ("1ststatement-->" , a ) ;
+put "result2" into stringContainer wow;
+add a and b into c;
+put "result3" into stringContainer wow;
+
+//loops
+repeatUntil ( i isLessThan 10 )
+{
+	show ("fisrstloop-->" , a ) ;
+	repeatUntil ( j isLessThan 100 )
+	{
+	 	show ("2ndloop-->" , a ) ;
+		//add a and b into c;
+	}
+	repeatUntil ( k isLessThan 500 )
+	{
+	 	//show ("3rdloop-->" , c ) ;
+		//add w and d into h;
+		repeatUntil ( l isLessThan 100 )
+		{
+		 	//show ("4thloop-->" , a ) ;
+			//add we and c into c;
+		}
+	}	
+}
+put "result" into stringContainer result;
+put 10 into integerContainer a;
+define void functionDecleration();
+
+define void functionDefination()
+{
+	//add a and b into c;
+}
+fucntionCALL();
+
+pedestal end "add" ;
+
+
+
+ 
